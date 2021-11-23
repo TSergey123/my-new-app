@@ -67,11 +67,11 @@ function App() {
               value={query}
               onChange={e => setQuery(e.target.value)}
             />
-            <InputGroupAddon addonType='append'>
+            {/* <InputGroupAddon addonType='append'> */}
               <Button color='secondary' onClick={handleSubmit}>
                 <i className='fas fa-search'></i>
               </Button>
-            </InputGroupAddon>
+            {/* </InputGroupAddon> */}
           </InputGroup>
           <div className='d-flex text-white justify-content-center'>
             <FormGroup >
